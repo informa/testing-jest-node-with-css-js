@@ -9,7 +9,8 @@
     "build": "lerna exec --scope=library-vanilla-extract --scope=library-treat -- npm run build",
     "start:treat": "lerna exec --scope=app-cra4-rewired -- npm run start",
     "start:vanilla": "lerna exec --scope=app-cra5-craco -- npm run start",
-    "test": "lerna exec --scope=app-cra4-rewired --scope=app-cra5-craco -- npm run test"
+    "test:treat": "lerna exec --scope=app-cra4-rewired -- npm run test",
+    "test:vanilla": "lerna exec --scope=app-cra5-craco -- npm run test"
   },
   "devDependencies": {
     "lerna": "^6.6.2",
